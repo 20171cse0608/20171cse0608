@@ -1,0 +1,25 @@
+body
+{
+Background:lightgreen;
+}
+img
+{
+float:right;
+}
+h1
+{
+color:maroon;
+border-style: dashed;
+margin-left:40px;
+font-style:italic;
+text-decoration: line-through;
+  text-shadow: 3px 2px white;
+}
+p
+{
+font-size:30px;
+font-style:italic;
+margin-left:40px;
+color:darkblue;
+text-shadow: 3px 2px red;
+}
