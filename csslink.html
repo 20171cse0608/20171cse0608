@@ -1,0 +1,52 @@
+<html>
+<head>
+<style>
+/* unvisited link */
+a:link {
+  color: red;
+  text-decoration: none;
+  
+}
+
+/* visited link */
+a:visited {
+  color: green;
+ text-decoration: none;
+ background-color: cyan;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+   text-decoration: underline;
+    background-color: lightgreen;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+   text-decoration: underline;
+ background-color: hotpink;
+}
+
+/* block link*/
+#a1 {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+</style>
+</head>
+<body>
+
+<p><b><a href="https://www.w3schools.com/css/css_link.asp" target="_blank">This is a link</a></b></p>
+<p><b>Note:</b> a:hover MUST come after a:link and a:visited in the CSS definition in order to be effective.</p>
+<p><b>Note:</b> a:active MUST come after a:hover in the CSS definition in order to be effective.</p>
+<p><b><a id="a1" href="https://www.w3schools.com/css/css_link.asp" target="_blank">This is a Block link</a></b></p>
+
+</body>
+</html>
+
